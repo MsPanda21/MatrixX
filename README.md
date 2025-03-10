@@ -31,6 +31,13 @@ Determinant: 5.0
 
 ```
 
+## 📸 Preview
+
+The screenshot below shows a snippet of the code. You can check out the full source in the repository.
+
+![Matrix Multiplication Example](matrices_ss.png)
+
+
 ## 📜 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
