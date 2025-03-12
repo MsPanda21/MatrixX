@@ -20,7 +20,7 @@ To calculate the determinant of a matrix, you can use the `determinant` function
 from src.matrix_ops import determinant
 import numpy as np
 
-# Example matrix
+# Example matrix(1)
 A = np.array([[2, 3], [1, 4]])
 
 # Calculating and printing the determinant
@@ -28,6 +28,16 @@ print("Determinant:", determinant(A))
 
 Expected output:
 Determinant: 5.0
+
+# Example matrix(2)
+B = np.array([[5, 7], [2, 6]])  
+
+# Calculating and printing the determinant  
+det_B = np.linalg.det(B)  
+print("Determinant:", det_B)
+
+Expected output:
+Determinant: 16.0
 
 ```
 
